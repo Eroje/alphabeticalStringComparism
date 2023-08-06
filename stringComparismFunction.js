@@ -1,4 +1,5 @@
 // Returns the string whose first letter is later in the alphabet. If both first letters are equal, returns null.
+// Note that A > B > C... 
 
 function getLaterFirstLetter(string1, string2) {
   const firstLetter1 = string1.charAt(0);
